@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.card{
+    background: #fff;
+    height: 800px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.layer1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text ul{
+    list-style: none;
+}
+
+.text ul .input{
+    border: 2px solid #61aaa1;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    background: #f3f8fb;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.text ul li:nth-child(2) span{
+    margin-right: 150px;
+}
+
+.text ul li:nth-child(2) a{
+    text-decoration: none;
+    color: #000;
+}
+
+.tip{
+    margin-top: 15px;
+}
+
+.layer1 .button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.upbutton ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.upbutton ul li{
+    display: flex;
+    flex-direction: row;
+    background: #00474b;
+    width: 75px;
+    height: 40px;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upbutton ul li:hover{
+    display: flex;
+    flex-direction: row;
+    background: #a1e7df;
+    width: 75px;
+    height: 40px;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downbutton ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.downbutton ul li{
+    display: flex;
+    flex-direction: row;
+    background: #00474b;
+    width: 75px;
+    height: 40px;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downbutton ul li:hover{
+    display: flex;
+    flex-direction: row;
+    background: #a1e7df;
+    width: 75px;
+    height: 40px;
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 40px;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input2 a{
+    background: #f3f8fb;
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #00474b;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.layer2{
+    background: #00474b;
+    padding: 20px;
+    border-radius: 20px;
+    height: 340px;
+}
+
+.layer2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.layer2 ul li{
+    margin-right: 50px;
+}
+
+.layer2 ul li:nth-child(2){
+    font-size: 1em;
+    color: #1bc3aa;
+}
+
+.layer2 ul li span{
+    color: #70a0a4;
+}
+
+.layer2 ul li:nth-child(1){
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.layer2 a{
+    background: #9fe8df;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 120px;
+}
+
+.layer2 a:hover{
+    background: #1bc3aa;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 120px;
+}
+
+@media(min-width:992px){
+    .card{
+        background: #fff;
+        height: 400px;
+        width: 600px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+}
